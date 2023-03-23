@@ -1,0 +1,65 @@
+.bg-write {
+	background: url(../../images/bg-setka.png)  #f4f6fa no-repeat center;
+	background-position-y: -200px;
+	padding: 45px 15px 45px;
+}
+.header-write {
+	filter: drop-shadow(2px 3.464px 3.5px rgba(155,182,190,0.75));
+}
+.header-write .d7 {
+	border-top: 20px solid #caddea;
+	border-right: 18px solid transparent;
+}
+.text-write{
+	font-size: 18px;
+	font-family: 'ArialNarrow';
+	margin-bottom: 50px;
+}
+
+/* .sprite-element1 {
+	width: 110px;
+	height: 110px;
+	background-position: -5px -3195px;
+}
+
+.sprite-element1-dark {
+	width: 110px;
+	height: 110px;
+	background-position: -5px -3315px;
+}
+
+.sprite-element2 {
+	width: 110px;
+	height: 110px;
+	background-position: -5px -3435px;
+}
+
+.sprite-element2-dark {
+	width: 110px;
+	height: 110px;
+	background-position: -5px -3555px;
+}
+
+.sprite-element3 {
+	width: 110px;
+	height: 110px;
+	background-position: -5px -3675px;
+}
+
+.sprite-element3-dark {
+	width: 110px;
+	height: 110px;
+	background-position: -5px -3795px;
+}
+
+.sprite-element4 {
+	width: 110px;
+	height: 110px;
+	background-position: -5px -3915px;
+}
+
+.sprite-element4-dark {
+	width: 110px;
+	height: 110px;
+	background-position: -5px -4035px;
+} */

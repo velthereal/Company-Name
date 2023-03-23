@@ -1,0 +1,89 @@
+.light-blue {
+	color: #1b7fd0;
+}
+
+.middle-blue {
+	color: #075da2;
+}
+
+.dark-blue {
+	color: #013056;
+}
+
+.red {
+	color: #dd0000;
+}
+
+.light-gray {
+	color: #caddea;
+}
+
+a {
+	text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul {
+	margin: 0;
+	padding: 0;
+}
+.d7 {
+	width: 0; 
+	height: 0;
+	border-top: 34px solid #caddea;
+	border-right: 34px solid transparent;
+}
+@media (min-width: 1170px){
+	.container {
+		width: 1170px;
+	}
+}
+
+/* ==========SPRITE============== */
+
+.sprite {
+	background-image: url(../images/spritesheet.png);
+	background-repeat: no-repeat;
+	display: block;
+}
+
+/* ==========FONTS=========== */
+
+h3 {
+	font-size: 22px;
+	font-family: 'Roboto Medium';
+	text-transform: uppercase;
+}
+h2 {
+	color: #1b7fd0;
+	background-color: #caddea;
+	font-family: 'Roboto Bold';
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 28px;
+	padding: 15px 0;
+}
+
+/* =======ORDER======== */
+
+.order {
+	text-align: center;
+	position: relative;
+	align-self: center;
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.order>p {
+	background-color: #dd0000;
+	padding: 5px 0;
+	font-size: 29px;
+	font-family: 'Roboto Regular';
+	color: #fff;
+}
+.order>.d7 {
+	width: 0; 
+	height: 0;
+	border-top: 16px solid #dd0000;
+	border-right: 20px solid transparent;
+}

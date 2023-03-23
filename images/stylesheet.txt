@@ -1,0 +1,317 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Additional-order {
+    width: 22px;
+    height: 27px;
+    background-position: -5px -5px;
+}
+
+.sprite-Arrow {
+    width: 11px;
+    height: 25px;
+    background-position: -5px -42px;
+}
+
+.sprite-Arrow2 {
+    width: 11px;
+    height: 25px;
+    background-position: -5px -77px;
+}
+
+.sprite-Bg-Dark2 {
+    width: 1920px;
+    height: 57px;
+    background-position: -5px -112px;
+}
+
+.sprite-Bg1 {
+    width: 2540px;
+    height: 582px;
+    background-position: -5px -179px;
+}
+
+.sprite-Bg1-1 {
+    width: 2540px;
+    height: 582px;
+    background-position: -5px -771px;
+}
+
+.sprite-Bg2 {
+    width: 1896px;
+    height: 561px;
+    background-position: -5px -1363px;
+}
+
+.sprite-Bg3 {
+    width: 1896px;
+    height: 561px;
+    background-position: -5px -1934px;
+}
+
+.sprite-Bg3-1 {
+    width: 1900px;
+    height: 570px;
+    background-position: -5px -2505px;
+}
+
+.sprite-Chat {
+    width: 50px;
+    height: 29px;
+    background-position: -5px -3085px;
+}
+
+.sprite-Chat2 {
+    width: 50px;
+    height: 29px;
+    background-position: -5px -3124px;
+}
+
+.sprite-Contact-us {
+    width: 23px;
+    height: 22px;
+    background-position: -5px -3163px;
+}
+
+.sprite-Element1 {
+    width: 110px;
+    height: 110px;
+    background-position: -5px -3195px;
+}
+
+.sprite-Element1_dark {
+    width: 110px;
+    height: 110px;
+    background-position: -5px -3315px;
+}
+
+.sprite-Element2 {
+    width: 110px;
+    height: 110px;
+    background-position: -5px -3435px;
+}
+
+.sprite-Element2_dark {
+    width: 110px;
+    height: 110px;
+    background-position: -5px -3555px;
+}
+
+.sprite-Element3 {
+    width: 110px;
+    height: 110px;
+    background-position: -5px -3675px;
+}
+
+.sprite-Element3_dark {
+    width: 110px;
+    height: 110px;
+    background-position: -5px -3795px;
+}
+
+.sprite-Element4 {
+    width: 110px;
+    height: 110px;
+    background-position: -5px -3915px;
+}
+
+.sprite-Element4_dark {
+    width: 110px;
+    height: 110px;
+    background-position: -5px -4035px;
+}
+
+.sprite-Facebook {
+    width: 17px;
+    height: 35px;
+    background-position: -5px -4155px;
+}
+
+.sprite-Facebook2 {
+    width: 17px;
+    height: 35px;
+    background-position: -5px -4200px;
+}
+
+.sprite-Login {
+    width: 40px;
+    height: 25px;
+    background-position: -5px -4245px;
+}
+
+.sprite-Login2 {
+    width: 40px;
+    height: 25px;
+    background-position: -5px -4280px;
+}
+
+.sprite-Order-details {
+    width: 25px;
+    height: 25px;
+    background-position: -5px -4315px;
+}
+
+.sprite-Pinterest {
+    width: 28px;
+    height: 35px;
+    background-position: -5px -4350px;
+}
+
+.sprite-Pinterest2 {
+    width: 28px;
+    height: 35px;
+    background-position: -5px -4395px;
+}
+
+.sprite-Revision {
+    width: 23px;
+    height: 23px;
+    background-position: -5px -4440px;
+}
+
+.sprite-Twiter {
+    width: 38px;
+    height: 30px;
+    background-position: -5px -4473px;
+}
+
+.sprite-Twiter2 {
+    width: 38px;
+    height: 30px;
+    background-position: -5px -4513px;
+}
+
+.sprite-VIP {
+    width: 116px;
+    height: 125px;
+    background-position: -5px -4553px;
+}
+
+.sprite-Works1 {
+    width: 120px;
+    height: 120px;
+    background-position: -5px -4688px;
+}
+
+.sprite-Works2 {
+    width: 120px;
+    height: 120px;
+    background-position: -5px -4818px;
+}
+
+.sprite-Works3 {
+    width: 120px;
+    height: 120px;
+    background-position: -5px -4948px;
+}
+
+.sprite-Works4 {
+    width: 120px;
+    height: 120px;
+    background-position: -5px -5078px;
+}
+
+.sprite-Works5 {
+    width: 120px;
+    height: 120px;
+    background-position: -5px -5208px;
+}
+
+.sprite-Works6 {
+    width: 120px;
+    height: 120px;
+    background-position: -5px -5338px;
+}
+
+.sprite-american-express {
+    width: 570px;
+    height: 353px;
+    background-position: -5px -5468px;
+}
+
+.sprite-diners-club {
+    width: 570px;
+    height: 353px;
+    background-position: -5px -5831px;
+}
+
+.sprite-discover {
+    width: 570px;
+    height: 353px;
+    background-position: -5px -6194px;
+}
+
+.sprite-feedback {
+    width: 30px;
+    height: 23px;
+    background-position: -5px -6557px;
+}
+
+.sprite-icon-1 {
+    width: 19px;
+    height: 19px;
+    background-position: -5px -6590px;
+}
+
+.sprite-icon-2 {
+    width: 20px;
+    height: 20px;
+    background-position: -5px -6619px;
+}
+
+.sprite-jcb {
+    width: 570px;
+    height: 353px;
+    background-position: -5px -6649px;
+}
+
+.sprite-logo {
+    width: 128px;
+    height: 45px;
+    background-position: -5px -7012px;
+}
+
+.sprite-logo-main {
+    width: 581px;
+    height: 78px;
+    background-position: -5px -7067px;
+}
+
+.sprite-master-card {
+    width: 570px;
+    height: 353px;
+    background-position: -5px -7155px;
+}
+
+.sprite-message-1 {
+    width: 30px;
+    height: 20px;
+    background-position: -5px -7518px;
+}
+
+.sprite-page {
+    width: 21px;
+    height: 26px;
+    background-position: -5px -7548px;
+}
+
+.sprite-paypal {
+    width: 570px;
+    height: 353px;
+    background-position: -5px -7584px;
+}
+
+.sprite-star {
+    width: 12px;
+    height: 12px;
+    background-position: -5px -7947px;
+}
+
+.sprite-visa {
+    width: 570px;
+    height: 353px;
+    background-position: -5px -7969px;
+}
