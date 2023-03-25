@@ -16,50 +16,188 @@
 	margin-bottom: 50px;
 }
 
-/* .sprite-element1 {
+.sprite-element1 {
 	width: 110px;
 	height: 110px;
 	background-position: -5px -3195px;
 }
-
-.sprite-element1-dark {
-	width: 110px;
-	height: 110px;
-	background-position: -5px -3315px;
-}
-
 .sprite-element2 {
 	width: 110px;
 	height: 110px;
 	background-position: -5px -3435px;
 }
-
-.sprite-element2-dark {
-	width: 110px;
-	height: 110px;
-	background-position: -5px -3555px;
-}
-
 .sprite-element3 {
 	width: 110px;
 	height: 110px;
 	background-position: -5px -3675px;
 }
-
-.sprite-element3-dark {
-	width: 110px;
-	height: 110px;
-	background-position: -5px -3795px;
-}
-
 .sprite-element4 {
 	width: 110px;
 	height: 110px;
 	background-position: -5px -3915px;
 }
+.circle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.active-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	padding: 15px 15px 20px;
+}
+.active-block h4 {
+	height: 100px;
+	font-size: 18px;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: #1b7fd0;
+	font-family: 'Roboto Medium';
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+.active-block p, .active-block ul {
+	font-size: 16px;
+	color: #000000;
+	font-family: "ArialNarrow";
+	text-align: justify;
+}
+.active-block ul {
+	list-style-position: inside;
+}
+.active-block a {
+	background-color: #075da2;
+	color: #fff;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	padding: 10px 12px;
+	font-family: 'Roboto Regular';
+	margin-top: 30px;
+}
+.bg-write .col-12 {
+	padding: 0;
+}
 
-.sprite-element4-dark {
-	width: 110px;
-	height: 110px;
+/* ---------------hover block -------------------*/
+.active-block {
+	background-color: rgba(255,255,255,0);
+}
+.d7-active-block {
+	width: 0; 
+	height: 0;
+	border-top: 30px solid rgba(255,255,255,0);
+	border-right: 40px solid transparent;
+}
+.bg-write .col-12:hover {
+	filter: drop-shadow(2px 3.464px 3.5px rgba(155,182,190,0.75));
+}
+.bg-write .col-12:hover .active-block{
+	background-color: rgba(255,255,255,1);
+}
+.bg-write .col-12:hover .d7-active-block{
+	border-top: 30px solid rgba(255, 255, 255,1);
+}
+.bg-write .col-12:hover .sprite-element1{
+	background-position: -5px -3315px;
+}
+.bg-write .col-12:hover .sprite-element2{
+	background-position: -5px -3555px;
+}
+.bg-write .col-12:hover .sprite-element3{
+	background-position: -5px -3795px;
+}
+.bg-write .col-12:hover .sprite-element4{
 	background-position: -5px -4035px;
-} */
+}
+/* ------320px----- */
+@media screen and (max-width: 320px){
+	.bg-write {
+		padding: 15px;
+	}
+	.active-block p {
+		text-align: left;
+	}
+	/* .sprite-element1 {
+		width: 65px;
+		height: 65px;
+		background-position: -5px -3195px;
+	}
+	.sprite-element2 {
+		width: 65px;
+		height: 65px;
+		background-position: -5px -3435px;
+	}
+	.sprite-element3 {
+		width: 65px;
+		height: 65px;
+		background-position: -5px -3675px;
+	}
+	.sprite-element4 {
+		width: 65px;
+		height: 65px;
+		background-position: -5px -3915px;
+	} */
+	.bg-write article {
+		display: none;
+		position: relative;
+	}
+	.bg-write article.active {
+		display: block;
+	}
+	.bg-write .col-12.active {
+		filter: drop-shadow(2px 3.464px 3.5px rgba(155,182,190,0.75));
+	}
+	.bg-write .col-12.active{
+		background-color: rgba(255,255,255,1);
+	}
+	.d3 {
+		position: absolute;
+		top: -14px;
+		left: 60px;
+		margin-left: -35px;
+		width: 0; 
+		height: 0;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		border-bottom: 15px solid rgba(255,255,255,1);
+	}
+	.icons {
+		margin-top: 35px;
+		list-style-type: none;
+		margin-bottom: 20px;
+	}
+	.icons li {
+		width: 65px;
+		height: 65px;
+		background-size: cover;
+	}
+	.icons li:nth-of-type(1){
+		background-image: url(../../images/Element1.png);
+	}
+	.icons li:nth-of-type(2){
+		background-image: url(../../images/Element2.png);
+	}
+	.icons li:nth-of-type(3){
+		background-image: url(../../images/Element3.png);
+	}
+	.icons li:nth-of-type(4){
+		background-image: url(../../images/Element4.png);
+	}
+	.icons li.active:nth-of-type(1) {
+		background-image: url(../../images/Element1_dark.png);
+	}
+	.icons li.active:nth-of-type(2) {
+		background-image: url(../../images/Element2_dark.png);
+	}
+	.icons li.active:nth-of-type(3) {
+		background-image: url(../../images/Element3_dark.png);
+	}
+	.icons li.active:nth-of-type(4) {
+		background-image: url(../../images/Element4_dark.png);
+	}
+}

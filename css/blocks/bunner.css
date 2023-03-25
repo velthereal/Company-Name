@@ -2,6 +2,7 @@
 	background: url(../../images/main-bcg.png) no-repeat center;
 	background-size: cover;
 	padding: 35px 0 20px;
+	position: relative;
 }
 .header {
 	position: relative;
@@ -40,7 +41,7 @@
 	margin-bottom: 18px;
 	color: #000;
 }
-.bg-bunner li::before {
+.bg-bunner .row li::before {
 	content: '';
 	display: inline-block;
 	width: 10px;
@@ -148,4 +149,33 @@
 .price-in-bunner span .price-off {
 	font-size: 26px;
 	color: #dd0000;
+}
+
+
+.phone-links {
+	position: absolute;
+	z-index: 100;
+	right: 15px;
+	top: 50px;
+}
+.phone-links ul {
+	margin: 0;
+	padding: 0;
+}
+.phone-links ul li {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #1b7fd0;
+	/* border: 3px solid rgba(1,48,86,0.3); */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.phone-links ul li:last-of-type {
+	background-color: #013056;
+}
+.phone-links ul li img {
+	display: inline-block;
+	width: 45px;
 }
